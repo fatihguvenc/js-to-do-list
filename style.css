@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #CAD3C8;
+}
+.container{
+    padding: 40px 160px;
+    border-radius: 25px;
+    background-color: #2C3A47;
+
+}
+.hood{
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+
+}
+input{
+    padding: 12px;
+    outline: 0;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: none;
+}
+.list-area{
+    display: flex;
+    justify-content: space-between;
+}
+.list-area li{
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.close-check{
+    display: flex;
+    align-items: center;
+}
+.close-icon{
+    color: #B33771;
+    font-size: 16px;
+    cursor: pointer;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+.btn{
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 700;
+    color: #fff;
+    outline: 0;
+}
+.btn:hover{
+    background: #fff;
+    color: #2C3A47;
+    cursor: pointer;
+}
+#checkbox{
+    width: 15px;
+    height: 15px;
+}
+#todo-form{
+    margin-top: 50px;
+}
